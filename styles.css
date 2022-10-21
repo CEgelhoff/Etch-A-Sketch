@@ -1,5 +1,5 @@
 *{
-    border: 2px solid green;
+    border: 1px solid green;
 }
 
 h1{
@@ -13,19 +13,20 @@ h1{
 	margin:auto;
 	padding: 0;
 	display: grid;
-	grid-gap: 1px;
-	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 0px;
+	grid-template-columns: repeat(12, 1fr);
 	align-items: center;
 	justify-items: center;
-	width: min-content;
-	height: min-content;
+	width: max-content;
+	height: max-content;
 	max-height: 960px;
 	max-width: 960px;
 }
 
 .grid{
-	min-height: 20px;
+	min-height: 7px;
 	max-width: 75px;
-	min-width: 20px;
+	min-width: 7px;
 	max-height: 75px;
+	border: 1px solid rgb(145, 145, 145);
 }
