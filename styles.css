@@ -6,27 +6,32 @@ h1{
 	margin: 5px;
 }
 
+button{
+	margin-left: 50px;
+	padding: 10px;
+	color: blueviolet;
+	background-color: black;
+}
+
 .pContainer{
 	top: 10px;
 	outline:2px solid #000;
 	font-size: 0;
-	margin:auto;
+	margin: auto;
 	padding: 0;
 	display: grid;
 	grid-gap: 0px;
 	grid-template-columns: repeat(12, 1fr);
-	align-items: center;
-	justify-items: center;
-	width: max-content;
-	height: max-content;
+	align-self: center;
+	justify-self: center;
+	width: 45vw;
+	height: 45vw;
 	max-height: 960px;
 	max-width: 960px;
 }
 
 .grid{
 	min-height: 7px;
-	max-width: 75px;
 	min-width: 7px;
-	max-height: 75px;
 	border: 1px solid rgb(145, 145, 145);
 }

@@ -16,7 +16,7 @@ function setLayout(){
 
     let input = 0;
     input = Number(prompt("How many rows and columns would you like?", 4))
-
+    //CHANGE TO NOT ALLOW NON-WHOLE NUMBERS!
     if (input > 100 || input < 1)
     {
         input = 4;
@@ -40,9 +40,6 @@ function setLayout(){
         square.addEventListener("mouseover", e => {
         square.style.backgroundColor = 'black';})
     }
-    console.log(blocks)
-    console.log(input)
-    console.log(container)
 }
 
 
