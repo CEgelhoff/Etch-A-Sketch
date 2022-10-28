@@ -16,7 +16,7 @@ function setLayout(){
 
     let input = 0;
     input = Number(prompt("How many rows and columns would you like?", 4))
-    //CHANGE TO NOT ALLOW NON-WHOLE NUMBERS!
+    //CAN CHANGE TO NOT ALLOW NON-WHOLE NUMBERS.
     if (input > 100 || input < 1)
     {
         input = 4;
